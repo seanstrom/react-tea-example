@@ -1,0 +1,62 @@
+html,
+body,
+.app {
+  box-sizing: border-box;
+  height: 100%;
+  font-size: 16px;
+  margin: 0;
+}
+
+.app {
+  display: flex;
+  flex-direction: column;
+}
+
+.app {
+  padding: 1rem 1.4rem;
+}
+
+.editor {
+  display: flex;
+  flex-direction: row;
+  flex: 1;
+}
+
+.editor-content,
+.editor-preview {
+  flex: 1;
+}
+
+.editor-content,
+.editor-preview {
+  border: 2px solid #333;
+  padding: 0.8rem;
+}
+
+.editor-content {
+  font-size: 1.6rem;
+  outline: none;
+}
+
+.editor-preview {
+  font-size: 1.2rem;
+}
+
+.app-header {
+  margin-bottom: 1rem;
+  background: #f9f9f9;
+  border: 2px solid #333;
+}
+
+.app-header-nav-link {
+  display: inline-block;
+  padding: 1rem;
+
+  &:hover {
+    background: #e5e5e5;
+  }
+
+  &:active {
+    background: #ddd;
+  }
+}
